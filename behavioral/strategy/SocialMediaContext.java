@@ -1,3 +1,5 @@
+package behavioral.strategy;
+
 public class SocialMediaContext {
 
       private ISocialMediaStrategy smStrategy;
