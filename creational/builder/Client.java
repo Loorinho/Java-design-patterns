@@ -3,16 +3,16 @@ package creational.builder;
 public class Client {
 
     public static void main(String[] args) {
-        House house1 = new HouseBuilder()
-                .setStories("2")
-                .setDoorType("Wooden")
-                .setRoofType("Concrete")
-                .build();
+
+        // creating a house builder instance
+        HouseBuilder houseBuilder = new HouseBuilder();
+        //
+        // Passing the house builder into the director's constructor
+        Director director = new Director(houseBuilder);
+        House house1 = director.buildOneStoryHouse();
+        House house2 = director.buildTwoStoryHouse();
 
         house1.printHouse();
-
-        House house2 = new HouseBuilder().build();
-
         house2.printHouse();
     }
 }

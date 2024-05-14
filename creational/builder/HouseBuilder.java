@@ -5,6 +5,9 @@ public class HouseBuilder {
     public String stories;
     public String doorType;
 
+    public HouseBuilder() {
+    }
+
     public String roofType;
     public HouseBuilder setStories(String stories) {
         this.stories = stories;
