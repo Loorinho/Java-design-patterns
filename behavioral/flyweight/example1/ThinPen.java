@@ -1,4 +1,4 @@
-package behavioral.flyweight;
+package behavioral.flyweight.example1;
 
 public class ThinPen implements Pen{
     final BrushSize brushSize = BrushSize.THIN; // Intrinsic state which is sharable

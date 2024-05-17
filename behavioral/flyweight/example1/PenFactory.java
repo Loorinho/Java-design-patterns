@@ -1,4 +1,4 @@
-package behavioral.flyweight;
+package behavioral.flyweight.example1;
 
 import java.util.HashMap;
 

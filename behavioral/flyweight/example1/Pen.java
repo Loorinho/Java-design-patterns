@@ -1,4 +1,4 @@
-package behavioral.flyweight;
+package behavioral.flyweight.example1;
 
 public interface Pen {
     public void setColor(String color);
