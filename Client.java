@@ -29,11 +29,7 @@ public class Client {
 
       remoteControl.setCommand(turnOffLightCommand);
       remoteControl.pressButton();
-
-
-
-      
-     
+   
    }
    
 }
